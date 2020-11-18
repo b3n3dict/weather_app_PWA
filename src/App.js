@@ -7,8 +7,8 @@ const App =()=>{
       const search = async(e)=>{
            if(e.key === 'Enter'){
             const data = await fetchWeather(cityName)
-            setWeather(data)
-            setCityName('')
+              setWeather(data)
+              setCityName('')
            }
       }
     return(
