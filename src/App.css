@@ -53,7 +53,12 @@ p {
     color: #1e2432;
     text-align: center;
 }
-
+.city-temp p{
+    font-size: 0.8rem;
+    margin:0;
+    color: #58595c;
+   
+}
 .city sup {
     font-size: 0.5em;
 }
@@ -71,7 +76,7 @@ p {
 }
 
 .city-icon {
-    margin-top: 10px;
+    margin-top: 3px;
     width: 100px;
     height: 100px;
 }
