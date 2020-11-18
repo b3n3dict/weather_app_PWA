@@ -8,7 +8,7 @@ export const fetchWeather = async (cityName)  =>{
        params:{
            q: cityName,
            units: 'metric',
-           APP_ID: API_KEY
+           APPID: API_KEY
        }
    })
 
