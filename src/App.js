@@ -12,7 +12,7 @@ const App =()=>{
            }
       }
     return(
-        <div className="main-container">
+        <div className='main-container'> 
          <input 
              type="text"
              className="search"
@@ -24,7 +24,7 @@ const App =()=>{
             onKeyPress={search}
          />
                {weather.main && (
-                   <div className="city"> 
+                   <div className={(weather.main.temp > 16) ? 'city warm' : 'city'}> 
                           <h2 className="city-name">
                               <span>{weather.name}</span>
                               <sup>{weather.sys.country}</sup>
